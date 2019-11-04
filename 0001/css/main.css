@@ -1,0 +1,55 @@
+body,ul,h3{
+	padding:0px;
+	margin:0px;
+}
+ul{
+	list-style:none;
+	
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix:after{
+	zoom:1;
+}
+.con{
+	width:960px;
+	border:1px solid #ddd;
+	margin:50px auto 0;
+	overflow:hidden;
+}
+.con h3{
+	height:50px;
+	width:918px;
+	border-bottom:1px solid #ddd;
+	margin:0px auto 0px;
+	
+	
+}
+.con h3 span{
+	display:inline-block;
+	height:50px;
+	border-bottom:2px solid red;
+	padding:0px 15px;
+	font:18px/50px 'Microsoft Yahei';
+	color:#000;
+}
+.con ul{
+	width: 950px;
+	/*background-color: gold;*/
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:13px;
+}
+
+.con ul li{
+	float:left;
+
+	width:160px;
+	height:68px;
+	margin:0px 29px 25px 0px;
+}
