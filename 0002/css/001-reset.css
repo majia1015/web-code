@@ -1,0 +1,33 @@
+
+body , ul{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style:none;
+}
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+em{
+	font-style:normal;
+}
+
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix:after{
+	zoom:1;
+}
+a{
+	text-decoration:none;
+}
