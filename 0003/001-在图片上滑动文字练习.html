@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在图片上滑动文字动画练习</title>
+	<style type="text/css">
+		.box{
+			width:300px;
+			height:300px;
+			border:1px solid #000000;
+			margin:50px auto 0px;
+			position:relative;
+			overflow:hidden;
+			cursor:pointer;
+		}
+		.box img{
+			width:300px;
+			height:300px;
+		}
+		.pic_info{
+			width:300px;
+			height:200px;
+			background-color:rgba(0,0,0,0);
+			color:#ffffff;
+			position:absolute;
+			top:300px;
+			left:0px;
+			transition:all 1s ease 1s;
+			font-family:"Microsoft Yahei"; 
+		}
+		.box:hover .pic_info{
+			top:10px;
+			left:10px;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="images/location_bg.jpg" alt="">
+		<div class="pic_info">
+			天下风云出我辈，<br />
+			一入江湖岁月催。<br />
+			皇图霸业谈笑中，<br />
+			不胜江湖一场醉。<br />
+			提剑跨骑挥鬼雨，<br />
+			白骨如山鸟惊飞。<br />
+			尘世如潮人如水，<br />
+			只叹江湖几人回。
+		</div>
+	</div>
+</body>
+</html>
