@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片翻转练习</title>
+	<style type="text/css">
+		.con{
+			width:300px;
+			height:272px;
+			margin:50px auto 0px;
+			position:relative;
+			transform-style:preserve-3d;
+			cursor:pointer;
+		}
+		.con img,.box{
+			width:300px;
+			height:272px;
+			position:absolute;
+			top:0px;
+			left:0px;
+			transform:perspective(800px) rotateY(0deg);
+			-webkit-backface-visibility:hidden;
+			transition:all 1s ease; 
+		}
+		.box{
+			background-color:gold;
+			text-align:center;
+			font:50px/272px "Microsoft Yahei";
+			color:red;
+			transform:translateZ(2px) rotateY(180deg);
+		}
+		.con:hover img{
+			transform:perspective(800px) rotateY(180deg);
+		}
+		.con:hover .box{
+			transform:perspective(800px) rotateY(0deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		<img src="images/location_bg.jpg" alt="图片">
+		<div class="box">我相信</div>
+	</div>
+</body>
+</html>
