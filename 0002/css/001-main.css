@@ -17,7 +17,7 @@ body{
 
 .welcome{
 	font:12px/29px "Microsoft Yahei";
-	content:#dddddd;
+	color:#dddddd;
 }
 
 .user_login_link,.user_welcome,.user_shopping{

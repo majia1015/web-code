@@ -1,0 +1,18 @@
+
+.header_con{
+	height:29px;
+	border:1px solid #ebebeb;
+}
+
+.header_con .header_left a{
+	height:29px;
+	font:12px/29px "Microsoft Yahei";
+	color:#555555;
+	margin-left:8px;
+}
+
+
+.header_con .header_left .weather{
+	border-right:1px solid  #555555;
+	padding-right:10px;
+}
