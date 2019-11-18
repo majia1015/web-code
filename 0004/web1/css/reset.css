@@ -1,0 +1,50 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,select,input,dl,dd,form{
+	margin:0px;
+	padding:0px;
+}
+
+/*统一继承父级样式*/
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+}
+
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+/*防止ie浏览器出现篮框*/
+img{
+	border:0px;
+}
+
+em{
+	font-style:normal;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix:after{
+	zomm:1;
+}
+
+
+
