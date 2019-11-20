@@ -232,16 +232,44 @@ body{
 }
 
 
+/*底部内容样式*/
+.footer ul{
+	height:2.5rem;
+}
 
+.footer li{
+	width:25%;
+	height:2.5rem;
+	float:left;
+}
 
+.footer li a{
+	display:block;
+	width:1.375rem;
+	height:1.3rem;
+	margin:0.25rem auto 0rem;
+	background:url(../images/icons.png) left -30rem no-repeat;
+	background-size:3.0rem 42.0rem;
+}
 
+.footer li:nth-child(2) a{
+	background-position:left -33rem;
+} 
 
+.footer li:nth-child(3) a{
+	background-position:left -36rem;
+} 
 
+.footer li:nth-child(4) a{
+	background-position:left -38.95rem;
+} 
 
-
-
-
-
+.footer li h2{
+	font:12px/12px "Microsoft Yahei";
+	color:#949392;
+	text-align:center;
+	margin-top:0.2rem;
+}
 
 
 
